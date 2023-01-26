@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = " "
 while True:
     ask = input('question: ')
     response = openai.Completion.create(
